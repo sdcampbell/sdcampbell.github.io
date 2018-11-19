@@ -7,7 +7,7 @@ published: true
 
 Email: sdcampbell68 at live dot com
 
-[LinkedIn Profile](https://www.linkedin.com/in/steve-campbell-gxpn-oscp-oswp-700a6b37/)
+[LinkedIn Profile](https://www.linkedin.com/in/Hack-The-Planet/)
 
 [GitHub](https://github.com/sdcampbell)
 
@@ -25,5 +25,3 @@ I’m a retired Navy Aviation Electrician, and have worked on P-3 Orion aircraft
 In my spare time I enjoy learning and doing infosec labs, riding my Harley and being outdoors with my beautiful wife.
 
 My favorite quote is from H.D. Moore: “If you don’t think you’re a n00b, you’re not trying hard enough.”
-
-
