@@ -1,11 +1,6 @@
 ---
 published: true
 ---
----
-layout: post
-title: Interested vs Committed
-published: true
----
 The one thing that changed my life was when I read about interest vs commitment. Too often I hear people wish that things were different, or they want things they will never have or accomplish because they don&#8217;t know what it means to be committed to something, so they wander through life like a leaf on a stream never knowing they are holding themselves back and maybe they blame others or circumstance.
 
 This is my reply to someone who asked on [Reddit](https://www.reddit.com/r/AskNetsec/comments/6n7b70/what_to_do_when_you_feel_like_giving_up_am_i_just/?ref_source=embed&ref=share) if they should just give up on the OSCP certification.
