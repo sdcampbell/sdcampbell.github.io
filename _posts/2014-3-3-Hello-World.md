@@ -1,10 +1,11 @@
 ---
 layout: post
-title: You're up and running!
+title: Welcome to my blog!
+published: true
 ---
 
-Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
+I tired of maintaining my own Wordpress blog, and issues with Wordpress on Digital Ocean resulted in my database going down repeatedly. Now I'm hosting on github.io and don't have to worry about site security, databases, etc., just write and publish!
 
-![_config.yml]({{ site.baseurl }}/images/config.png)
+I don't plan to move over any of my old blog except for the latest post: "Interested vs. Commtted".
 
-The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on GitHub.
+~Steve
