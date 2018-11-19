@@ -5,13 +5,14 @@ permalink: /about/
 published: true
 ---
 
+## Contact me:
 Email: sdcampbell68 at live dot com
 
 [LinkedIn Profile](https://www.linkedin.com/in/Hack-The-Planet/)
 
 [GitHub](https://github.com/sdcampbell)
 
-CVE’s/Vulnerabilities Discovered:
+## CVE’s/Vulnerabilities Discovered:
 IDOR in www.navycollege.navy.mil site
 SQL Injection in BlogPHP
 CVE-2016-10107 Western Digital MyCloud Remote Command Injection
