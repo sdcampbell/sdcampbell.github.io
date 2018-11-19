@@ -20,9 +20,9 @@ Email: sdcampbell68 at live dot com
 [GitHub](https://github.com/sdcampbell)
 
 ## CVE’s/Vulnerabilities Discovered:
-IDOR in www.navycollege.navy.mil site
-SQL Injection in BlogPHP
-CVE-2016-10107 Western Digital MyCloud Remote Command Injection
-CVE-2016-10108 Western Digital MyCloud Remote Command Injection
-CVE-2018-5550 Epson AirPrint XSS
+- IDOR in www.navycollege.navy.mil site
+- SQL Injection in BlogPHP
+- CVE-2016-10107 Western Digital MyCloud Remote Command Injection
+- CVE-2016-10108 Western Digital MyCloud Remote Command Injection
+- CVE-2018-5550 Epson AirPrint XSS
 
