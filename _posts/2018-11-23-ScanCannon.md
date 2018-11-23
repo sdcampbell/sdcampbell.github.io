@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 ## ScanCannon - Runs Masscan followed up by Nmap for service version info. Much faster than Nmap alone.
 
