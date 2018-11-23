@@ -4,7 +4,6 @@ published: false
 ---
 published: true
 ---
-
 ## ScanCannon - Runs Masscan followed up by Nmap for service version info. Much faster than Nmap alone.
 
 [ScanCannon](https://github.com/sdcampbell/ScanCannon). Runs Masscan, followed up by Nmap for service version info. This should finish scans much faster than Nmap alone while providing service version info that Masscan doesn't provide.
