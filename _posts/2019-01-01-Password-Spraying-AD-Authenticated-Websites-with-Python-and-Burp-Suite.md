@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 I frequently use the Intruder tab in Burp Suite Pro to password spray websites which use Active Directory authentication. One of the problems of using Burp Suite is that there doesn't seem to be a way to avoid lockout when using a long password list. Frequently I don't get a hit on valid password on the first try with Season/Year stuff like "Winter2018!" and need to run through a list of 51 common AD passwords that I have in a file. Sure, I can paste in a list of three or four passwords (depending on my client's lockout policy), but then I have to wait X minutes and then replace those passwords with three of four more, track the time between password spray runs, etc. That's a manual process, and I'd prefer something that I can setup and just let it run to completion.
 
