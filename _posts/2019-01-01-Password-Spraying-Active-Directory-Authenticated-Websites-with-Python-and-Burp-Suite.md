@@ -9,7 +9,7 @@ In the following code, you'll notice where I have placed those "burp0" lines. Pa
 
 Once you've updated the script with your data copied using the "Copy As Python-Requests" extension, run it using the parameters shown in the usage variable. Although the script outputs to CSV which can be sorted based on content length (sort -k4 -n -t, output.csv) or opened and sorted with Gnumeric or Excel, an easier way to sort the response headers may be to proxy the requests through Burp Suite and sort them there. An easy way to proxy through Burp without having to modify the script is to set an environmental variable: export HTTPS_PROXY=“http://127.0.0.1:8080”
 
-The script also prints timestamps to the screen which is useful for those times that you get blamed for locking out users. I believe in logging everything, and this has saved my reputation more than once when I was blamed for account lockouts which ended up being caused by something in the clien't environment.
+The script also prints timestamps to the screen which is useful for those times that you get blamed for locking out users. I believe in logging everything, and this has saved my reputation more than once when I was blamed for account lockouts which ended up being caused by something in the client's environment.
 
 ```python
 import requests
