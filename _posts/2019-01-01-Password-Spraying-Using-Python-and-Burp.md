@@ -45,4 +45,3 @@ for password in passwords:
     print("Sleeping for {} minutes".format(sys.argv[3]))
     time.sleep(sleep_time)
 ```
-
