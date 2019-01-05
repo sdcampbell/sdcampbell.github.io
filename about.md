@@ -29,4 +29,3 @@ Email: sdcampbell68 at live dot com
 - CVE-2016-10107 Western Digital MyCloud Remote Command Injection
 - CVE-2016-10108 Western Digital MyCloud Remote Command Injection
 - CVE-2018-5550 Epson AirPrint XSS
-
