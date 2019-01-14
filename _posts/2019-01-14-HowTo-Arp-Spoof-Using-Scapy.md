@@ -3,7 +3,9 @@ published: false
 ---
 ## HowTo ARP Spoof Using Scapy
 
-Sure there are already some pretty good security tools that can pull off ARP spoofing: Ettercap, Bettercap, etc. This post details what I learned when to do it myself using Scapy, in the hopes that I can help someone else who's also trying to learn how to use Scapy. Man In The Middle (MITM) attacks against a whole subnet frequently cause a Denial of Service (DoS) condition. In this case, I want to ARP spoof a single victim and redirect any SMB traffic to my attacker system so that I can capture or relay hashes. 
+Sure there are already some pretty good security tools that can pull off ARP spoofing: Ettercap, Bettercap, etc. This post details what I learned when I wanted to do it myself using Scapy, in the hopes that I can help someone else who's also trying to learn how to use Scapy. After a while you get tired of using other people's tools and want to learn how to do it yourself, even if you're just creating yet another tool to do 'X', at least you're learning something new.
+
+Man In The Middle (MITM) attacks against a whole subnet frequently cause a Denial of Service (DoS) condition. In this case, I want to ARP spoof a single victim and redirect any SMB traffic to my attacker system so that I can capture or relay hashes. 
 
 In my lab, my victim was running a fully patched Windows 10 OS. I monitored my arp table using 'arp -a'. In the interest of saving some time and not having to run an extended ARP spoof attack, I cleared my victim's ARP cache using 'arp -d *' before starting the attack.
 
@@ -23,7 +25,7 @@ parser.add_argument("target_IP", help="Gateway or target IP address. Must be on 
 args = parser.parse_args()
 ```
 
-Now we need to set some iptables rules and also enable IP forwarding. The first iptables rule prevents the kernel from seeing traffic that didn't originate from the kernel and sending a RST, effectively killing the connection. The ip_forward is necessary, otherwise you'll DoS the victim that you're attacking because your system will intercept their comms but won't forward traffic on to the destination. The final iptables argument is required to foward any SMB traffic on to our attacker's IP address on port 445 so that we can either capture the hash and crack it, or relay it on using tools such as Metasploit, Responder, or other SMB relay tools.
+Now we need to set some iptables rules and also enable IP forwarding. The first iptables rule prevents the kernel from seeing traffic that didn't originate from the kernel and sending a RST, which would kill our connection. The ip_forward is necessary, otherwise you'll DoS the victim that you're attacking because your system will intercept their comms but won't forward traffic on to the destination. The final iptables argument is required to forward any SMB traffic on to our attacker's IP address on port 445 so that we can either capture the hash and crack it, or relay it on using tools such as Metasploit, Responder, or other SMB relay tools.
 
 ```python
 # Prevent kernel from interfering and sending RST's.
