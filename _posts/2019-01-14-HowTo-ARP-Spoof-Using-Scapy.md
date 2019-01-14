@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 Sure there are already some pretty good security tools that can pull off ARP spoofing: Ettercap, Bettercap, etc. This post details what I learned when I wanted to do it myself using Scapy, in the hopes that I can help someone else who's also trying to learn how to use Scapy. After a while you get tired of using other people's tools and want to learn how to do it yourself, even if you're just creating yet another tool to do 'X', at least you're learning something new.
 
