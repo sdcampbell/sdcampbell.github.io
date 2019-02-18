@@ -9,8 +9,6 @@ Lately I've found a need to dive into PowerShell to be able to understand a comp
 
 Let's get started installing PowerShell on Kali.
 
-Edit: Updated 9/25/2018
-
 ```
 apt -y install apt-transport-https curl gnupg
 curl https://packages.microsoft.com/keys/microsoft.asc | apt-key add -
