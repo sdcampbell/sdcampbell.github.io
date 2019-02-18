@@ -11,14 +11,14 @@ Let's get started installing PowerShell on Kali.
 
 Edit: Updated 9/25/2018
 
-'''
+```
 apt -y install apt-transport-https curl gnupg
 curl https://packages.microsoft.com/keys/microsoft.asc | apt-key add -
 wget http://archive.ubuntu.com/ubuntu/pool/main/i/icu/libicu57_57.1-6_amd64.deb
 dpkg -i libicu57_57.1-6_amd64.deb
 echo "deb [arch=amd64] https://packages.microsoft.com/repos/microsoft-debian-stretch-prod stretch main" > /etc/apt/sources.list.d/powershell.list
 apt-get update && apt -y install powershell
-'''
+```
 
 Now start PowerShell:
   
