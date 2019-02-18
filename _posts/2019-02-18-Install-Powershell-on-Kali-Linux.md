@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 I tried to install PowerShell on Kali Linux Rolling by following instructions on the GitHub page as well as other articles I found online and none of them worked. I'm going to tell you what worked for me.
 
