@@ -1,7 +1,6 @@
 ---
 published: true
 ---
-## Pick Your News Channel, Pick Your Indoctrination
 
 It makes my head feel like it's going to explode when I watch the major news outlets. I miss the old days when news was presented factually and without political bias and let the consumer decide.
 
