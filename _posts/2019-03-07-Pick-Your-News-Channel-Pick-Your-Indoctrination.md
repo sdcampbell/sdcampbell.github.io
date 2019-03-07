@@ -2,7 +2,7 @@
 published: true
 ---
 
-It makes my head feel like it's going to explode when I watch the major news outlets. I miss the old days when news was presented factually and without political bias and let the consumer decide.
+It makes my head feel like it's going to explode when I watch the major news outlets. I miss the old days when news was presented factually and without political bias and let the consumer decide. Today's news is not much more than talking heads and opinion presented as fact.
 
 In regards to politics, there are two types of thinkers. One is the 'scientist'. A scientist questions every assumption and operates on facts and logic. Nothing is taken at face value. The other is the 'lawyer'. The lawyer takes reality and facts and spins them to fit their narrative. The lawyer uses emotion and can't be swayed by facts. Unfortunately is seems today that many more people are 'lawyers'. They pick their news outlets based on their way of thinking and accept the headlines and news bites and question none of it.
 
