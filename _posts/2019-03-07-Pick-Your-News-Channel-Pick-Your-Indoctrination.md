@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 ## Pick Your News Channel, Pick Your Indoctrination
 
