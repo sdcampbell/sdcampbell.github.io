@@ -6,7 +6,7 @@ published: false
 While testing web applications, I monitor the application using Wireshark to see if the app is using a protocol that lacks support in Burp Suite, like HTTP2. This post shows how to decrypt TLS traffic in Wireshark on Kali Linux.
 
 ## Edit .bashrc
-Add the following line to your .bashrc file (or enter it in the same terminal that you use to start Chromium in a later step):
+If you want to make thie permanent, add the following line to your .bashrc file. Otherwise, enter it in the same terminal before starting Chromium from the terminal in a later step):
 `export SSLKEYLOGFILE=/root/ssl-key.log`
 
 ## Browser notes
@@ -20,4 +20,4 @@ In Wireshark, select Edit > Preferences > Protocols > SSL. In the '(Pre)-Master-
 After opening Chromium, browse to a few TLS enabled sites and then check for the precense of your ssl-key.log file. Go back to Wireshark and enter 'ssl' in the filter. When you select packets with TLS DATA, in the lower pane you should see a new tab for 'Decrypted SSL'. Keep in mind that if the decrypted data still looks like garbage, it is likely gzipped.
 
 ## Bonus: Curl suports a SSLKEYLOGFILE too!
-Curl also supports SSLKEYLOGFILE and any TLS traffic generated with curl can be decrypted by Wireshark. 
+Curl also supports SSLKEYLOGFILE and any TLS traffic generated with curl can be decrypted by Wireshark.
