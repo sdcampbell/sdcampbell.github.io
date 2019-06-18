@@ -1,5 +1,6 @@
 ---
 published: true
+title: TLS Decryption in Wireshark
 ---
 While testing web applications, I monitor the application using Wireshark to see if the app is using a protocol that lacks support in Burp Suite, like HTTP2. This post shows how to decrypt TLS traffic in Wireshark on Kali Linux.
 
