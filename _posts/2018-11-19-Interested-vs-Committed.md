@@ -1,6 +1,7 @@
 ---
 published: true
 comments: true
+title: Interested vs. Committed
 ---
 The one thing that changed my life was when I read about interest vs commitment. Too often I hear people wish that things were different, or they want things they will never have or accomplish because they don&#8217;t know what it means to be committed to something, so they wander through life like a leaf on a stream never knowing they are holding themselves back and maybe they blame others or circumstance.
 
