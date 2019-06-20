@@ -12,7 +12,7 @@ In my spare time I enjoy learning and doing infosec labs, riding my Harley and b
 
 My favorite quote is from H.D. Moore: “If you don’t think you’re a n00b, you’re not trying hard enough.”
 
-The idea that has had the greatest affect on my success is "interest vs. committment". If you're interested in doing something, you'll most likely fail unless your goals are really easy and insignificant. To acheive your goals and change your life you must be committed. When you're committed, you don't make nor accept excuses. If you goal is to lose 20 pounds and you say that you're going to wake up early and exercise, you don't hit the snooze button when your alarm goes off, or try to justify to yourself why it's ok to eat just this one junkfood snack. If your goal is to earn an infsec certification or learn a skill but you're too tired to study or lab at night because of long working hours or family committments, set your alarm to wake up early.
+The one thing that had the greatest affect on my success is "interest vs. committment". If you're interested in doing something, you'll most likely fail unless your goals are really easy and insignificant. To acheive your goals and change your life you must be committed. When you're committed, you don't make nor accept excuses. If you goal is to lose 20 pounds and you say that you're going to wake up early and exercise, you don't hit the snooze button when your alarm goes off, or try to justify to yourself why it's ok to eat just this one junkfood snack. If your goal is to earn an infsec certification or learn a skill but you're too tired to study or lab at night because of long working hours or family committments, set your alarm to wake up early.
 
 ## Contact info:
 Email: sdcampbell68 at live dot com
