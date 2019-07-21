@@ -2,7 +2,7 @@
 published: true
 comments: true
 ---
-I rarely use Mimikatz for more than parsing memory dumps of lsass.exe taken with procdump64.exe. I'm just not going to risk uploading Mimikatz to the client's environment when I can fly under the radar by using wmiexec.py from Impacket to upload procdump64.exe, run the command to make a dump file from lsass.exe, and download it to be processed offline using Mimikatz on a system that I control. If this sounds like a lot of steps, it is. This post is about using a Python3 library to save yourself some work when processing those lsass.exe dump file to get credentials.
+I rarely use Mimikatz for more than parsing memory dumps of lsass.exe taken with procdump64.exe. I'm just not going to risk running Mimikatz from CrackMapExec or uploading Mimikatz to the client's environment when I can fly under the radar by using wmiexec.py from Impacket to upload procdump64.exe, run the command to make a dump file from lsass.exe, and download it to be processed offline using Mimikatz on a system that I control. If this sounds like a lot of extra steps, it is. This post is about using a Python3 library to save yourself some work when processing those lsass.exe dump file to get credentials.
 
 ## About pypykatz
 
