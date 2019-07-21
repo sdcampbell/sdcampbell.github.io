@@ -68,7 +68,7 @@ Dumping LIVE system LSA secrets:
 pypykatz live lsa
 ```
 
-## Thoughts on using pypykatz vs. Mimikazt for parsing creds from lsass.exe memory dumps
+## Thoughts on using pypykatz vs. Mimikatz for parsing creds from lsass.exe memory dumps
 
 Instead of running wmiexec with multiple commands to upload procdump, dump lsass.exe, download the dump file, and copy that over to a Windows host to use Mimikatz: 
 
