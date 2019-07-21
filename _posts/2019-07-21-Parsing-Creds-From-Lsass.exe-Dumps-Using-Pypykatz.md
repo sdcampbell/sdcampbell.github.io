@@ -12,9 +12,9 @@ Mimikatz implementation in pure Python. -optimized for offline persing, but has 
 
 Via pip: 
 
-```bash
+`
 pip3 install pypykatz
-```
+`
 
 Via Github:
 
