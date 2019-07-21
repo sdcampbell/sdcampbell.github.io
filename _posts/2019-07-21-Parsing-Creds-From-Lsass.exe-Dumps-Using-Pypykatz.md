@@ -12,13 +12,13 @@ Mimikatz implementation in pure Python. -optimized for offline persing, but has 
 
 Via pip: 
 
-```
+```bash
 pip3 install pypykatz
 ```
 
 Via Github:
 
-```
+```bash
 pip3 install minidump minikerberos asn1crypto
 git clone https://github.com/skelsec/pypykatz.git
 cd pypykatz
@@ -27,7 +27,7 @@ python3 setup.py install
 
 ##Usage:
 
-```
+```bash
 usage: pypykatz [-h] [-v] [--json] [-e] [-o OUTFILE] [-k KERBEROS_DIR]
                 {minidump,live,rekall} ...
 
@@ -56,7 +56,7 @@ optional arguments:
 
 Parsing minidump file of the LSASS process:
 
-```
+```bash
 pypykatz minidump <minidump file>
 ```
 
@@ -64,7 +64,7 @@ pypykatz minidump <minidump file>
 
 Dumping LIVE system LSA secrets:
 
-```
+```bash
 pypykatz live lsa
 ```
 
