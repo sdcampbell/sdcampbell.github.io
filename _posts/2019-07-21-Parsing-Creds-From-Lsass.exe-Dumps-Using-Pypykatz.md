@@ -4,31 +4,26 @@ comments: true
 ---
 I rarely use Mimikatz for more than parsing memory dumps of lsass.exe taken with procdump64.exe. I'm just not going to risk uploading Mimikatz to the client's environment when I can fly under the radar by using wmiexec.py from Impacket to upload procdump64.exe, run the command to make a dump file from lsass.exe, and download it to be processed offline using Mimikatz on a system that I control. If this sounds like a lot of steps, it is. This post is about using a Python3 library to save yourself some work when processing those lsass.exe dump file to get credentials.
 
-##About pypykatz
+## About pypykatz
 
 Mimikatz implementation in pure Python. -optimized for offline persing, but has options for live credential dumping as well. Runs on all OS's which support python>=3.6
 
-##Installation
+## Installation
 
 Via pip: 
 
-`
-pip3 install pypykatz
-`
+```pip3 install pypykatz```
 
 Via Github:
 
-```bash
-pip3 install minidump minikerberos asn1crypto
+```pip3 install minidump minikerberos asn1crypto
 git clone https://github.com/skelsec/pypykatz.git
 cd pypykatz
-python3 setup.py install
-```
+python3 setup.py install```
 
-##Usage:
+## Usage:
 
-```bash
-usage: pypykatz [-h] [-v] [--json] [-e] [-o OUTFILE] [-k KERBEROS_DIR]
+```usage: pypykatz [-h] [-v] [--json] [-e] [-o OUTFILE] [-k KERBEROS_DIR]
                 {minidump,live,rekall} ...
 
 Pure Python implementation of Mimikatz --or at least some parts of it--
@@ -49,26 +44,21 @@ optional arguments:
                         Save results to file (you can specify --json for json
                         file, or text format will be written)
   -k KERBEROS_DIR, --kerberos-dir KERBEROS_DIR
-                        Save kerberos tickets to a directory.
-```
+                        Save kerberos tickets to a directory.```
 
-##Examples:
+## Examples:
 
 Parsing minidump file of the LSASS process:
 
-```bash
-pypykatz minidump <minidump file>
-```
+```pypykatz minidump <minidump file>```
 
 
 
 Dumping LIVE system LSA secrets:
 
-```bash
-pypykatz live lsa
-```
+```pypykatz live lsa```
 
-##Thoughts on using pypykatz vs. Mimikazt for parsing creds from lsass.exe memory dumps
+## Thoughts on using pypykatz vs. Mimikazt for parsing creds from lsass.exe memory dumps
 
 Instead of running wmiexec with multiple commands to upload procdump, dump lsass.exe, download the dump file, and copy that over to a Windows host to use Mimikatz: 
 
