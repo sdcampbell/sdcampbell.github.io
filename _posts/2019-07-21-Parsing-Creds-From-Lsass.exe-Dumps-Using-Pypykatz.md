@@ -12,18 +12,23 @@ Mimikatz implementation in pure Python. -optimized for offline persing, but has 
 
 Via pip: 
 
-```pip3 install pypykatz```
+```
+pip3 install pypykatz
+```
 
 Via Github:
 
-```pip3 install minidump minikerberos asn1crypto
+```
+pip3 install minidump minikerberos asn1crypto
 git clone https://github.com/skelsec/pypykatz.git
 cd pypykatz
-python3 setup.py install```
+python3 setup.py install
+```
 
 ## Usage:
 
-```usage: pypykatz [-h] [-v] [--json] [-e] [-o OUTFILE] [-k KERBEROS_DIR]
+```
+usage: pypykatz [-h] [-v] [--json] [-e] [-o OUTFILE] [-k KERBEROS_DIR]
                 {minidump,live,rekall} ...
 
 Pure Python implementation of Mimikatz --or at least some parts of it--
@@ -44,19 +49,24 @@ optional arguments:
                         Save results to file (you can specify --json for json
                         file, or text format will be written)
   -k KERBEROS_DIR, --kerberos-dir KERBEROS_DIR
-                        Save kerberos tickets to a directory.```
+                        Save kerberos tickets to a directory.
+```
 
 ## Examples:
 
 Parsing minidump file of the LSASS process:
 
-```pypykatz minidump <minidump file>```
+```
+pypykatz minidump <minidump file>
+```
 
 
 
 Dumping LIVE system LSA secrets:
 
-```pypykatz live lsa```
+```
+pypykatz live lsa
+```
 
 ## Thoughts on using pypykatz vs. Mimikazt for parsing creds from lsass.exe memory dumps
 
