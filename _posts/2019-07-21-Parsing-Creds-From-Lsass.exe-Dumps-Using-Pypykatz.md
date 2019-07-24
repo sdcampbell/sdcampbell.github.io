@@ -12,9 +12,8 @@ Mimikatz implementation in pure Python. -optimized for offline persing, but has 
 
 Via pip: 
 
-```
-pip3 install pypykatz
-```
+
+    pip3 install pypykatz
 
 Via Github:
 
