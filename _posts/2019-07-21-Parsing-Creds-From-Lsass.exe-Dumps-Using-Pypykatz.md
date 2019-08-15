@@ -77,7 +77,7 @@ Install pypykatz:
 
 Run Impacket smbserver.py:
 
-`./smbserver.py -smb2support <share name> <share path with procdump64.exe>`
+`./smbserver.py -smb2support <share name> <path to dir where you have procdump64.exe>`
 
 Run Impacket wmiexec.py:
 
