@@ -10,12 +10,13 @@ Lately I've found a need to dive into PowerShell to be able to understand a comp
 Let's get started installing PowerShell on Kali.
 
 ```
-apt -y install apt-transport-https curl gnupg
+apt update && apt -y install curl gnupg apt-transport-https
 curl https://packages.microsoft.com/keys/microsoft.asc | apt-key add -
-wget http://archive.ubuntu.com/ubuntu/pool/main/i/icu/libicu57_57.1-6_amd64.deb
-dpkg -i libicu57_57.1-6_amd64.deb
 echo "deb [arch=amd64] https://packages.microsoft.com/repos/microsoft-debian-stretch-prod stretch main" > /etc/apt/sources.list.d/powershell.list
-apt-get update && apt -y install powershell
+apt update
+wget http://http.us.debian.org/debian/pool/main/i/icu/libicu57_57.1-6+deb9u2_amd64.deb
+dpkg -i libicu57_57.1-6+deb9u2_amd64.deb
+apt -y install powershell
 ```
 
 Now start PowerShell:
