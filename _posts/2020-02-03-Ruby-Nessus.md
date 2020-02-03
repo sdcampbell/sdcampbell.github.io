@@ -41,5 +41,5 @@ Output:
 172.17.1.50	Microsoft RDP RCE (CVE-2019-0708) (BlueKeep) (uncredentialed check)
 ```
 
-Read more at https://github.com/mephux/ruby-nessus.
+Read more on [GitHub](https://github.com/mephux/ruby-nessus).
 
