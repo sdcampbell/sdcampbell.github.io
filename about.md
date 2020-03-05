@@ -24,7 +24,11 @@ Email: sdcampbell68 at live dot com
 ## CVE's/Vulnerabilities Discovered:
 
 CVE-2019-5648/R7-2019-39 (8.7 High) LDAP bind credential exposure in Barracuda Email Security Gateway, Web Application Firewall. https://blog.rapid7.com/2020/03/05/r7-2019-39-cve-2019-5648-ldap-credential-exposure-in-barracuda-load-balancer-adc-fixed/ 
+
 CVE-2018-5550  (6.1 Medium) Epson AirPrint XSS
+
 CVE-2016-10108 (9.8 Critical) Western Digital MyCloud Remote Command Injection
+
 CVE-2016-10107 (9.8 Critical) Western Digital MyCloud Remote Command Injection.
+
 Insecure Direct Object Reference (IDOR) - www.navycollege.navy.mil, 2005. Steven identified an IDOR vulnerability which exposed the PII of Navy and Marine Corps personnel to the Internet.
