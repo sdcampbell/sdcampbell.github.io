@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 published: true
 ---
-I have over 15 years experience in information technology and security. Experienced in network, wireless, and web application penetration testing, vulnerability management, networking, firewalls, AAA, Active Directory, application and server virtualization… I’ve worked with most of the enterprise IT stack over my career. My certifications: GXPN, OSCP, OSWP, Security+, CCNA (Expired), CCA
+I have over 15 years experience in information technology and security. Experienced in network, wireless, mobile, and web application penetration testing, vulnerability management, networking, firewalls, AAA, Active Directory, application and server virtualization… I’ve worked with most of the enterprise IT stack over my career. My certifications: GXPN, OSCP, OSWP, Security+, CCNA (Expired), CCA
 
 I’m a retired Navy Aviation Electrician, and have worked on P-3 Orion aircraft as well as various models of H-60 helo’s. I started out as an Undesignated Airman, and once I decided on becoming an Aviation Electrician, I worked in the AE shop during my spare time and learned electronics by reading the Navy Electricity and Electronics Training Series (NEETS) guides. One of my best attributes is the ability to pick up a book, (or these days use my google-fu) and figure out how to get things done.
 
