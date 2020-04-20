@@ -3,7 +3,7 @@ published: true
 comments: true
 ---
 Android-Testing-Cheatsheet - Updated 4/20/20
-Configuring tools and mobile device for Android app testing.
+Configuring tools and mobile device for Android app testing and find vulnerabilities.
 
 ## Download APK's
 
