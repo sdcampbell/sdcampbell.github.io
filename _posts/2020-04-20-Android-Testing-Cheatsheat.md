@@ -133,3 +133,9 @@ Retrieve the capture from the device: `adb pull /sdcard/dump.cap .`
 # Finding Vulnerabilities
 
 ## TBD
+
+# External Resources
+
+## Maddie Stone - [Reverse Engineering Android Apps 101](https://maddiestone.github.io/AndroidAppRE/)
+
+
