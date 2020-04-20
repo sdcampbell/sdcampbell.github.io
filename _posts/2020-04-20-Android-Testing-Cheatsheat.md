@@ -1,5 +1,6 @@
 ---
 published: false
+comments: true
 ---
 # Android-Testing-Cheatsheet - Updated 4/20/20
 Configuring tools and mobile device for Android app testing.
