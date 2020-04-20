@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 comments: true
 ---
 # Android-Testing-Cheatsheet - Updated 4/20/20
