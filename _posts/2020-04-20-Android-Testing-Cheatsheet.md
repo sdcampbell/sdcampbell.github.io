@@ -132,7 +132,7 @@ Retrieve the capture from the device: `adb pull /sdcard/dump.cap .`
 
 # Finding Vulnerabilities
 
-## TBD
+## [OWASP Mobile Application Security Verification Standard](https://github.com/OWASP/owasp-masvs/releases/)
 
 # External Resources
 
