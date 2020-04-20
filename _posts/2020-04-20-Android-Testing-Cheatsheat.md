@@ -96,7 +96,7 @@ sudo apt install -y adb fastboot
 1. Install [prerequisites](https://github.com/fsecurelabs/drozer/#prerequisites)
 2. Install Oracle Java 1.6
    1. [Download](https://www.oracle.com/java/technologies/javase-java-archive-javase6-downloads.html#license-lightbox). Requires Oracle login which is free.
-   2. Extract bin file and move to /usr/lib/jvm.
+   2. Extract bin file and move to /usr/lib/jvm/java-6-oracle.
    3. Set JAVA_HOME in .bashrc: `JAVA_HOME="/usr/lib/jvm/java-6-oracle"`
 3. [Download](https://github.com/FSecureLABS/drozer/releases/download/2.4.4/drozer_2.4.4.deb) and install drozer deb.
 4. Drozer agent
