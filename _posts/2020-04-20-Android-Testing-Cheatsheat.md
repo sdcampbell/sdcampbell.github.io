@@ -93,19 +93,19 @@ sudo apt install -y adb fastboot
 ```
 ## Install Drozer on a workstation (Debian/Ubuntu/Kali)
 
-1. Install prerequisites: https://github.com/fsecurelabs/drozer/#prerequisites
-2. Install deb: https://github.com/FSecureLABS/drozer/releases/download/2.4.4/drozer_2.4.4.deb
-3. Install Oracle Java 1.6
+1. Install [prerequisites](https://github.com/fsecurelabs/drozer/#prerequisites)
+2. Install Oracle Java 1.6
    1. Download from: https://www.oracle.com/java/technologies/javase-java-archive-javase6-downloads.html#license-lightbox
    2. Extract bin file and move to /usr/lib/jvm.
    3. Set JAVA_HOME in .bashrc: `JAVA_HOME="/usr/lib/jvm/java-6-oracle"`
+3. [Download](https://github.com/FSecureLABS/drozer/releases/download/2.4.4/drozer_2.4.4.deb) and install drozer deb.
 4. Drozer agent
-   1. Download agent: https://github.com/mwrlabs/drozer/releases/download/2.3.4/drozer-agent-2.3.4.apk
+   1. [Download](https://github.com/mwrlabs/drozer/releases/download/2.3.4/drozer-agent-2.3.4.apk) drozer agent apk.
    2. Install Drozer on mobile device: `adb install drozer-agent-2.3.4.apk`
    3. Port forward: `adb forward tcp:31415 tcp:31415`
    4. Connect to a physical device: `drozer console connect --server <server IP (mobile device)>`
    5. List modules:Find out more information on the app: `run app.package.info -a (application)`
-   6. Drozer guide: https://labs.f-secure.com/assets/BlogFiles/mwri-drozer-user-guide-2015-03-23.pdf
+   6. [Drozer guide](https://labs.f-secure.com/assets/BlogFiles/mwri-drozer-user-guide-2015-03-23.pdf)
 
 ## Other mobile analysis tools
 
@@ -137,5 +137,3 @@ Retrieve the capture from the device: `adb pull /sdcard/dump.cap .`
 # External Resources
 
 ## Maddie Stone - [Reverse Engineering Android Apps 101](https://maddiestone.github.io/AndroidAppRE/)
-
-
