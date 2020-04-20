@@ -136,4 +136,8 @@ Retrieve the capture from the device: `adb pull /sdcard/dump.cap .`
 
 # External Resources
 
+## [Identifying & Avoiding Android app Protections](https://www.youtube.com/watch?v=MH1gQLDxx2w) - Tim Strazzere, LevelUp 2017
+
+## [Advanced Android Bug Bounty skills](https://www.youtube.com/watch?v=OLgmPxTHLuY) - Ben Actis, Bugcrowd's LevelUp 2017
+
 ## Maddie Stone - [Reverse Engineering Android Apps 101](https://maddiestone.github.io/AndroidAppRE/)
