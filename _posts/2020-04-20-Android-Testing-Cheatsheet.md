@@ -134,6 +134,14 @@ Retrieve the capture from the device: `adb pull /sdcard/dump.cap .`
 
 ## [OWASP Mobile Application Security Verification Standard](https://github.com/OWASP/owasp-masvs/releases/)
 
+The MASVS establishes baseline security requirements for mobile apps that are useful in many scenarios, including:
+
+- In the SDLC - to establish security requirements to be followed by solution architects and developers;
+- In mobile app penetration tests - to ensure completeness and consistency in mobile app penetration tests;
+- In procurement - as a measuring stick for mobile app security, e.g. in form of questionnaire for vendors;
+
+The MASVS is a sister project of the OWASP Mobile Security Testing Guide.
+
 # External Resources
 
 ## [Identifying & Avoiding Android app Protections](https://www.youtube.com/watch?v=MH1gQLDxx2w) - Tim Strazzere, LevelUp 2017
