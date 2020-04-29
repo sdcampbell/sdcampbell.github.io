@@ -1,6 +1,8 @@
 ---
 published: true
 ---
+Update: This post is outdated. The Kali repo's are fixed and now the best way to install PowerShell on Kali is to run this command: `apt update && apt -y install powershell`
+
 I tried to install PowerShell on Kali Linux Rolling by following instructions on the GitHub page as well as other articles I found online and none of them worked. I'm going to tell you what worked for me.
 
 In the past I've stuck to Bash and Python for all of my scripting needs because they work cross platform. My work issued laptop runs Windows 10 and I use Git Bash to run my simple shell scripts that I use mainly to slice, dice, and reformat data, and Python for everything else. I'm a big fan of using one cross platform scripting language when possible.
