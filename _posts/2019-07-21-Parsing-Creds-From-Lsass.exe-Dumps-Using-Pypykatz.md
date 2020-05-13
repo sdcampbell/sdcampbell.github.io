@@ -2,6 +2,8 @@
 published: true
 comments: true
 ---
+Update: [CrackMapExec](https://github.com/byt3bl33d3r/CrackMapExec) now includes the 'lsassy' module which automates the following steps. While the article below still works, if you need dump lsass across multiple hosts, I'd use CrackMapExec as the steps below take a lot more time.
+
 I rarely use Mimikatz for more than parsing memory dumps of lsass.exe taken with procdump64.exe. I'm just not going to risk running Mimikatz from CrackMapExec or uploading Mimikatz to the client's environment when I can bypass antivirus by using wmiexec.py from Impacket to upload procdump64.exe, run the command to make a dump file from lsass.exe, and download it to be processed offline using Mimikatz on a system that I control. If this sounds like a lot of extra steps, it is. This post is about using a Python3 library to save yourself some work when processing those lsass.exe dump file to get credentials.
 
 ## About pypykatz
