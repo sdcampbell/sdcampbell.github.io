@@ -5,9 +5,9 @@ title: Interested vs. Committed
 ---
 The one thing that changed my life was when I read about interest vs commitment. Too often I hear people wish that things were different, or they want things they will never have or accomplish because they don&#8217;t know what it means to be committed to something, so they wander through life like a leaf on a stream never knowing they are holding themselves back and maybe they blame others or circumstance.
 
-Someone asked if they should just give up on the OSCP certification. They had failed it multiple times. They said they had learned so much and stated that hacking is their passion and it brings them job. Giving up wasn't in their nature but after three failures of the OSCP exam, they were doubting themselves.
+Someone asked if they should just give up on the OSCP certification. They had failed it multiple times. They said they had learned so much and stated that hacking is their passion and it brings them joy. Giving up wasn't in their nature but after three failures of the OSCP exam, they were doubting themselves.
 
-If it's your passion and brings you job, that tells me that you shouldn't give up and you should keep trying.
+If it's your passion and brings you joy, that tells me that you shouldn't give up and you should keep trying.
 
 Let me tell you about the revelation that changed my life and led to getting OSCP. Ask yourself if you're interested or committed. If you're interested, you'll make excuses and give up or only do what you said you were going to do when it's easy or convenient. When you're committed, you don't make nor accept any excuses. You'll find a way to get it done and nothing can stand in your way. It's a mindset. A few years ago when I was trying to change my life I read about "interested vs committed" and applied it to my life. I stopped sleeping in late and skipping my morning workout. I lost 35 pounds and felt great. I got the CCNA certification that I had been working on for years but never finishing because every time I got close, overtime work would get in the way of studying and I'd put it off.
 
