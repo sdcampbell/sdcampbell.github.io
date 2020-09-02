@@ -39,6 +39,7 @@ func cidrHosts(netw string) []string {
 	// loop through addresses as uint32
 	for i := start + 1; i <= finish-1; i++ {
 		// convert back to net.IPs
+        // Create IP address of type net.IP. IPv4 is 4 bytes, IPv6 is 16 bytes.
 		ip := make(net.IP, 4)
 		binary.BigEndian.PutUint32(ip, i)
 		hosts = append(hosts, ip.String())
@@ -64,4 +65,3 @@ Output:
 ...
 192.168.1.254
 ```
-
