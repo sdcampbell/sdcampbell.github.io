@@ -1,5 +1,6 @@
 ---
-published: false
+published: true
+comments: true
 ---
 The following Golang code demonstrates how to take a network address string in CIDR format and return a slice of strings containing host addresses.
 
