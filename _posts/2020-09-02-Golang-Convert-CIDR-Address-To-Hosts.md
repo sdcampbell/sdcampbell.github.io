@@ -2,7 +2,7 @@
 published: true
 comments: true
 ---
-The following Golang code demonstrates how to take a network address string in CIDR format and return a slice of strings containing host addresses.
+The following Golang code demonstrates how to take a network address string in CIDR format and return a slice of strings containing host addresses. Note that I found this code on the Golang Playground (I don't know specifically who to attribute it to) and edited it slightly and added my own comments so that I was sure to understand what the code was doing before posting it here for my notes.
 
 
 ```golang
@@ -30,13 +30,14 @@ func cidrHosts(netw string) []string {
 	}
 	// convert IPNet struct mask and address to uint32
 	mask := binary.BigEndian.Uint32(ipv4Net.Mask)
-	// fing the start IP address
+	// find the start IP address
 	start := binary.BigEndian.Uint32(ipv4Net.IP)
 	// find the final IP address
 	finish := (start & mask) | (mask ^ 0xffffffff)
 	// make a slice to return host addresses
 	var hosts []string
-	// loop through addresses as uint32
+	// loop through addresses as uint32.
+    // I used "start + 1" and "finish - 1" to discard the network and broadcast addresses.
 	for i := start + 1; i <= finish-1; i++ {
 		// convert back to net.IPs
         // Create IP address of type net.IP. IPv4 is 4 bytes, IPv6 is 16 bytes.
