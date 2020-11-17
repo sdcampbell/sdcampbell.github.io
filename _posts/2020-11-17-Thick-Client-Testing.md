@@ -1,5 +1,6 @@
 ---
 published: true
+comments: true
 ---
 Kickoff call: During the kickoff call, ask if any user input in the thick client app can be viewed by backend web interfaces, or if there is a web client that complements the thick client. If yes, ask if they want to add it to be tested. This should be scoped to another assessment, as we don't want to give away free work. Additionally, there is a possible attack vector if user input in the thick client is not sanitized and can trigger attacks such as XSS in the web client.
 
