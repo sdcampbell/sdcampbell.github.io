@@ -19,11 +19,11 @@ Display for screenshot PoC:
 ```
 powershell.exe -exec bypass
 Import-Module .\Get-PESecurity.psm1
-Get-PESecurity -directory <path without trailing \> -recursive | ?{($.DEP -like “FALSE”) -or ($_.ASLR -like “FALSE”) -or ($_.Authenticode -like “FALSE”) -or ($_.ControlFlowGuard -like “FALSE”)} | Select-Object -Property FileName,DEP,ASLR,Authenticode,ControlFlowGuard | Format-Table
+Get-PESecurity -directory <path without trailing \> -recursive | ?{($_.DEP -like “FALSE”) -or ($_.ASLR -like “FALSE”) -or ($_.Authenticode -like “FALSE”) -or ($_.ControlFlowGuard -like “FALSE”)} | Select-Object -Property FileName,DEP,ASLR,Authenticode,ControlFlowGuard | Format-Table
 ```
 
 To export to CSV for reporting:
 
 ```
-Get-PESecurity -directory <path without trailing \> -recursive | ?{($.DEP -like “FALSE”) -or ($_.ASLR -like “FALSE”) -or ($_.Authenticode -like “FALSE”) -or ($_.ControlFlowGuard -like “FALSE”)} | Select-Object -Property FileName,DEP,ASLR,Authenticode,ControlFlowGuard | Export-Csv -Path <path> -NoTypeInformation
+Get-PESecurity -directory <path without trailing \> -recursive | ?{($_.DEP -like “FALSE”) -or ($_.ASLR -like “FALSE”) -or ($_.Authenticode -like “FALSE”) -or ($_.ControlFlowGuard -like “FALSE”)} | Select-Object -Property FileName,DEP,ASLR,Authenticode,ControlFlowGuard | Export-Csv -Path <path> -NoTypeInformation
 ```
