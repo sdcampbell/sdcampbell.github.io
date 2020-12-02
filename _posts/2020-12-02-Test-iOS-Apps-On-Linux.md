@@ -34,7 +34,7 @@ ideviceimagemounter -l
 Take a device screenshot:
 
 ```
-devicescreenshot [OPTIONS] [FILE]
+idevicescreenshot [OPTIONS] [FILE]
 ```
 
 Happy Hacking!
