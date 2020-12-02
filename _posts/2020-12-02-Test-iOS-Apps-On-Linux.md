@@ -1,5 +1,6 @@
 ---
 published: true
+comments: true
 ---
 In the past I'd use a Mac when I needed to test iOS apps due to getting an error in Linux about needing to mount an Apple Developer Disk image when trying to use Frida and Objection on Ubuntu to test an iOS device. Here I've outlined the steps to download the Apple Developer Disk image, mount the image on Ubuntu, and run some tools including taking a screenshot of the device, when testing on a jailbroken device.
 
