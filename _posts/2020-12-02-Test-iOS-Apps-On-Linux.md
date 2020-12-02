@@ -11,14 +11,30 @@ Failed to enumerate processes: this feature requires an iOS Developer Disk Image
 
 Here I've outlined the steps to download the Apple Developer Disk image, mount the image on Ubuntu, and run some tools including taking a screenshot of the device.
 
-Install the necessary tools: `sudo apt-get install libimobiledevice usbmuxd`
+Install the necessary tools:
+
+```
+sudo apt-get install libimobiledevice usbmuxd
+```
 
 [Download](https://github.com/xushuduo/Xcode-iOS-Developer-Disk-Image/releases) the appropriate developer disk image.
 
-Extract the files, then mount the disk image: `ideviceimagemounter -t Developer DeveloperDiskImage.dmg DeveloperDiskImage.dmg.signature`
+Extract the files, then mount the disk image:
 
-Check to ensure the disk image was mounted: `ideviceimagemounter -l`
+```
+ideviceimagemounter -t Developer DeveloperDiskImage.dmg DeveloperDiskImage.dmg.signature
+```
 
-Take a device screenshot: `idevicescreenshot [OPTIONS] [FILE]`
+Check to ensure the disk image was mounted:
+
+```
+ideviceimagemounter -l
+```
+
+Take a device screenshot:
+
+```
+devicescreenshot [OPTIONS] [FILE]
+```
 
 Happy Hacking!
