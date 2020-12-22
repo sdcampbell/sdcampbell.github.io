@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 Kali Linux recently switched from the Bash shell to Zsh. I log the output of every command run during a pentest to a logfile, in addition to saving screenshots. Pentesters are frequently asked by the client or Blue Team for information to correlate with SIEM alerts, so it's a good idea to update your Zsh prompt to include the date, time, and IP address. 
 
