@@ -4,11 +4,9 @@ comments: true
 ---
 Kali Linux recently switched from the Bash shell to Zsh. I log the output of every command run during a pentest to a logfile, in addition to saving screenshots. Pentesters are frequently asked by the client or Blue Team for information to correlate with SIEM alerts, so it's a good idea to update your Zsh prompt to include the date, time, and IP address. 
 
-Zsh has the option of adding an 'RPROMPT', or right side prompt. We'll use this to avoid cluttering up the normal prompt on the left. In Kali, edit `~/.zshrc` and comment out the line that begins with 'RPROMPT'. Below it, add the following to a new line:
+Zsh has the option of adding an 'RPROMPT', or right side prompt. We'll use this to avoid cluttering up the normal prompt on the left. In Kali, edit .zshrc and comment out the line that begins with 'RPROMPT' add the following line below it:
 
-```
-RPROMPT="%W %* $(ifconfig | grep -A 1 eth0 | grep inet | tr -s ' ' | cut -d ' ' -f 3)"
-```
+![2020-12-22_09-31.png]({{site.baseurl}}/images/2020-12-22_09-31.png)
 
 After saving your changes, to update the prompt you can either close and relaunch the prompt, or update it immediately by entering `source .zshrc`
 
