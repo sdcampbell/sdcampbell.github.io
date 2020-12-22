@@ -9,7 +9,11 @@ Zsh has the option of adding an 'RPROMPT', or right side prompt. We'll use this 
 RPROMPT="%W %* $(ifconfig | grep -A 1 eth0 | grep inet | tr -s ' ' | cut -d ' ' -f 3)"
 ```
 
-After saving your changes, to update the prompt you can either close and relaunch the prompt, or update it immediately by entering `source ~/.zshrc`.
+After saving your changes, to update the prompt you can either close and relaunch the prompt, or update it immediately by entering:
+
+```
+source ~/.zshrc
+```
 
 Now when you log all cli output to a logfile using `script mylogfile.log`, the date/time and your IP address will be displayed on the right side as shown below:
 
