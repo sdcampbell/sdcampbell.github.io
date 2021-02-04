@@ -3,7 +3,7 @@ published: true
 comments: true
 title: Interested vs. Committed
 ---
-The one thing that changed my life was when I read about interest vs commitment. Too often I hear people wish that things were different, or they want things they will never have or accomplish because they don&#8217;t know what it means to be committed to something, so they wander through life like a leaf on a stream never knowing they are holding themselves back and maybe they blame others or circumstance.
+The one thing that changed my life was when I read about interest vs commitment. Too often I hear people wish that things were different, or they want things they will never have or accomplish. They don't know what it means to be committed to something, so they wander through life like a leaf on a stream, never knowing they're holding themselves back and maybe they blame others or circumstance.
 
 Someone asked if they should just give up on the OSCP certification. They had failed it multiple times. They said they had learned so much and stated that hacking is their passion and it brings them joy. Giving up wasn't in their nature but after three failures of the OSCP exam, they were doubting themselves.
 
