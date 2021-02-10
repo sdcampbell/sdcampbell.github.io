@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 # HackTheBox Doctor 10.10.10.209
 
@@ -62,4 +62,3 @@ Run the exploit:
 Catch a root shell:
 
 ![](images/2021-02-02_14-57.png)
-
