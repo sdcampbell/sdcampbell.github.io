@@ -1,6 +1,9 @@
 ---
 published: true
+comments: true
 ---
+This is my walkthrough of HackTheBox Doctor, 10.10.10.209.
+
 ## Getting user.txt
 
 Full nmap scan results (TCP):
