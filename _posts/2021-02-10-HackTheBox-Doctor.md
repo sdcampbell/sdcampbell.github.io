@@ -7,7 +7,7 @@ published: true
 
 Full nmap scan results (TCP):
 
-![](/images/2021-02-02_12-47.png)
+![](../images/2021-02-02_12-47.png)
 
 On the website on port 80, I found an email address, info@doctors.htb. I added the hostname to my /etc/hosts file.
 
